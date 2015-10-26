@@ -1,31 +1,353 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.effect.*?>
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane prefHeight="781.0" prefWidth="1246.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.40">
+<AnchorPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="700.0" prefWidth="1111.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <BorderPane layoutX="-321.0" layoutY="-185.0" prefHeight="781.0" prefWidth="1246.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-         <effect>
-            <ColorInput />
-         </effect>
-         <top>
-            <Pane prefHeight="200.0" prefWidth="1140.0" BorderPane.alignment="CENTER">
+      <BorderPane prefHeight="700.0" prefWidth="1111.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="373.0" translateX="10.0" BorderPane.alignment="CENTER">
                <children>
-                  <ImageView fitHeight="96.0" fitWidth="72.0" layoutX="876.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true" />
-                  <ImageView fitHeight="96.0" fitWidth="72.0" layoutX="784.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true" />
-                  <ImageView fitHeight="96.0" fitWidth="72.0" layoutX="493.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true" />
-                  <ImageView fitHeight="96.0" fitWidth="72.0" layoutX="355.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true" />
-                  <ImageView fitHeight="96.0" fitWidth="72.0" layoutX="898.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true" />
-                  <ImageView fitHeight="96.0" fitWidth="72.0" layoutX="213.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true" />
-                  <ImageView fitHeight="96.0" fitWidth="72.0" layoutX="391.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="78.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" translateX="28.0" translateY="150.0">
+                     <image>
+                        <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/1.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="60.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" translateX="28.0" translateY="150.0">
+                     <image>
+                        <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/2.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="60.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" translateX="28.0" translateY="150.0">
+                     <image>
+                        <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/2.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="60.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" translateX="28.0" translateY="150.0">
+                     <image>
+                        <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/2.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="60.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" translateX="28.0" translateY="150.0">
+                     <image>
+                        <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/2.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="60.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" translateX="28.0" translateY="150.0">
+                     <image>
+                        <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/2.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="60.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" translateX="28.0" translateY="150.0">
+                     <image>
+                        <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/2.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="46.0" prefWidth="185.0" text="Play Game" translateX="-220.0" translateY="225.0" />
+               </children></HBox>
+         </center>
+         <top>
+            <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="700.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="78.0" fitWidth="40.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" translateX="200.0" translateY="80.0">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                     <image>
+                        <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/1.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="60.0" fitWidth="40.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" translateX="200.0" translateY="80.0">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                     <image>
+                        <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="60.0" fitWidth="40.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" translateX="200.0" translateY="80.0">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                     <image>
+                        <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="60.0" fitWidth="40.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" translateX="200.0" translateY="80.0">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                     <image>
+                        <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="60.0" fitWidth="40.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" translateX="200.0" translateY="80.0">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                     <image>
+                        <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="60.0" fitWidth="40.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" translateX="200.0" translateY="80.0">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                     <image>
+                        <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="60.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" translateX="200.0" translateY="80.0">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                     <image>
+                        <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/2.png" />
+                     </image>
+                  </ImageView>
+                  <ButtonBar maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="71.0" prefWidth="309.0" translateX="-150.0">
+                    <buttons>
+                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="292.0" text="Sit" translateX="30.0" />
+                        <Button mnemonicParsing="false" text="Leave" translateX="30.0" />
+                    </buttons>
+                  </ButtonBar>
                </children>
-            </Pane>
+            </HBox>
          </top>
+         <bottom>
+            <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="700.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="78.0" fitWidth="40.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" translateX="200.0" translateY="80.0">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                     <image>
+                        <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/1.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="60.0" fitWidth="40.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" translateX="200.0" translateY="80.0">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                     <image>
+                        <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="60.0" fitWidth="40.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" translateX="200.0" translateY="80.0">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                     <image>
+                        <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="60.0" fitWidth="40.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" translateX="200.0" translateY="80.0">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                     <image>
+                        <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="60.0" fitWidth="40.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" translateX="200.0" translateY="80.0">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                     <image>
+                        <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="60.0" fitWidth="40.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" translateX="200.0" translateY="80.0">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                     <image>
+                        <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="60.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" translateX="200.0" translateY="80.0">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                     <image>
+                        <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/2.png" />
+                     </image>
+                  </ImageView>
+                  <ButtonBar maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="71.0" prefWidth="309.0" translateX="-150.0">
+                     <buttons>
+                        <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="292.0" text="Sit" translateX="30.0" />
+                        <Button mnemonicParsing="false" text="Leave" translateX="30.0" />
+                     </buttons>
+                  </ButtonBar>
+               </children>
+            </HBox>
+         </bottom>
+         <left>
+            <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="407.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="78.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" translateY="150.0">
+                     <image>
+                        <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/1.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="60.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" translateY="150.0">
+                     <image>
+                        <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/2.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="60.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" translateY="150.0">
+                     <image>
+                        <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/2.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="60.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" translateY="150.0">
+                     <image>
+                        <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/2.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="60.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" translateY="150.0">
+                     <image>
+                        <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/2.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="60.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" translateY="150.0">
+                     <image>
+                        <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/2.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="60.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" translateY="150.0">
+                     <image>
+                        <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/2.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ButtonBar maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="31.0" prefWidth="292.0" translateX="-305.0" translateY="220.0">
+                    <buttons>
+                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="259.0" text="Sit" />
+                        <Button mnemonicParsing="false" text="Leave" />
+                    </buttons>
+                  </ButtonBar>
+               </children>
+            </HBox>
+         </left>
+         <right>
+            <HBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="400.0" prefWidth="407.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="0.0">
+                     <children>
+                        <ImageView fitHeight="78.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" translateX="80.0" translateY="150.0">
+                           <image>
+                              <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/1.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets left="5.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <ImageView fitHeight="60.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" translateX="80.0" translateY="150.0">
+                           <image>
+                              <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/2.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets left="5.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <ImageView fitHeight="60.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" translateX="80.0" translateY="150.0">
+                           <image>
+                              <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/2.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets left="5.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <ImageView fitHeight="60.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" translateX="80.0" translateY="150.0">
+                           <image>
+                              <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/2.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets left="5.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <ImageView fitHeight="60.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" translateX="80.0" translateY="150.0">
+                           <image>
+                              <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/2.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets left="5.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <ImageView fitHeight="60.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" translateX="80.0" translateY="150.0">
+                           <image>
+                              <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/2.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets left="5.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <ImageView fitHeight="60.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" translateX="80.0" translateY="150.0">
+                           <image>
+                              <Image url="@../../../../Lab3ProperProper/SpringBorgata/src/main/resources/img/2.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets left="5.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <ButtonBar maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="31.0" prefWidth="292.0" translateX="-305.0" translateY="220.0">
+                           <buttons>
+                              <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="259.0" text="Sit" translateX="80.0" />
+                              <Button mnemonicParsing="false" text="Leave" translateX="80.0" />
+                           </buttons>
+                        </ButtonBar>
+                     </children>
+                  </HBox>
+               </children></HBox>
+         </right>
       </BorderPane>
    </children>
 </AnchorPane>
